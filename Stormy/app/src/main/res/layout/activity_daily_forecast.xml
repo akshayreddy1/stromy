@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.google.akshay.stormy.ui.DailyForecastActivity"
+                android:background="@drawable/bg_image">
+
+    <TextView
+        android:text="@string/no_daily_forecast_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@android:id/empty"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        />
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/thisWeekLabel"/>
+
+    <TextView
+        android:text="This Week's Weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/thisWeekLabel"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="false"
+        android:textColor="#ffffffff"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

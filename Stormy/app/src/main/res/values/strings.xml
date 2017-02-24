@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Stormy</string>
+    <string name="error_title">Oops! Sorry!</string>
+    <string name="error_message">There was an error please try again</string>
+    <string name="error_ok_button_text">OK</string>
+    <string name="Network_unavailable_message">Network is unavailable!!</string>
+    <string name="title_activity_daily_forecast">DailyForecastActivity</string>
+    <string name="no_daily_forecast_data">There is no data to display</string>
+    <string name="title_activity_hourly_forecast">HourlyForecastActivity</string>
+</resources>
