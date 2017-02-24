@@ -1,1 +1,1 @@
-# stromy
+# stromy is a current weather application and it even shows hour forecast and next 48 days forecasts
